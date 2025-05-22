@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[PII]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>PII</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Thu, 22 May 2025 17:56:06 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Thu, 22 May 2025 17:56:04 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[The Future of DDI Tools: Automation Opportunities for Network Engineers]]></title><description><![CDATA[ 
+ <br><br><br>
+<br>What is DDI?
+<br>Let’s start with the basics.  DDI stands for:<br>
+<br>DNS (Domain Name System): Translates domain names into IP addresses. <a data-href="011 - DNS" href="mallard\011-dns.html" class="internal-link" target="_self" rel="noopener nofollow">011 - DNS</a>
+<br>DHCP (Dynamic Host Configuration Protocol): Assigns IP addresses to devices on the network. <a data-href="023 - DHCP" href="mallard\023-dhcp.html" class="internal-link" target="_self" rel="noopener nofollow">023 - DHCP</a>
+<br>IPAM (IP Address Management): Keeps track of IP address allocations and usage. <a data-href="033 - IPAM" href="mallard\033-ipam.html" class="internal-link" target="_self" rel="noopener nofollow">033 - IPAM</a>
+<br>Together, these three pillars form the backbone of network connectivity. DDI tools bundle these services into a single platform, making it easier to manage, monitor, and secure your network.<br>
+<br>Overview of Major DDI Tools
+
+<br>Infoblox
+<br>BlueCat
+<br>EfficientIP
+<br>Men&amp;Mice
+<br>Microsoft DDI
+<br><a data-href="003 - Open Source DDI Tools" href="mallard\003-open-source-ddi-tools.html" class="internal-link" target="_self" rel="noopener nofollow">003 - Open Source DDI Tools</a>
+
+
+<br>Current Automation Capabilities
+<br>Trends Shaping DDI Automation
+<br>Which DDI Tools are Poised for Automation
+<br>Why some Tools Lend Themeselves to Automation
+<br>Challenges and Considerations
+<br>Conclusions 
+<br>Web References
+<br><br>If you’re a network engineer, you know how critical DDI (DNS, DHCP, and IPAM) is to keeping networks running smoothly. But as networks get more complex and dynamic—think cloud, IoT, and remote work—the old manual ways of managing DDI just don’t cut it anymore. Automation is the name of the game for 2025, and not all DDI tools are created equal when it comes to making your life easier.<br>This paper takes a hands-on look at the major DDI tools on the market, explores their automation capabilities, and gives you a practical sense of which ones are ready for the future—and why.<br><br>There are several players in the DDI space, each with its own strengths, quirks, and approaches to automation. Here’s a rundown of the most widely used solutions:<br><br>
+<br>Overview: Probably the most recognized name in enterprise DDI, Infoblox offers robust DNS, DHCP, and IPAM capabilities.
+<br>Key Features: Centralized management, strong security integrations, cloud-native options, and a mature API.
+<br>Automation: Infoblox has invested heavily in automation, with RESTful APIs, Ansible modules, and integrations with orchestration tools.
+<br><br>
+<br>Overview: Another big name, BlueCat is known for its flexibility and focus on large, distributed environments.
+<br>Key Features: Centralized visibility, policy-driven management, and strong cloud support.
+<br>Automation: BlueCat’s API-first approach makes it a favorite for automation, with good support for DevOps workflows.
+<br><br>
+<br>Overview: EfficientIP offers a unified DDI platform with a focus on security and performance.
+<br>Key Features: Smart DDI, patented DNS security, and multi-cloud support.
+<br>Automation: Provides REST APIs and integration with orchestration tools, but automation maturity varies by feature.
+<br><br>
+<br>Overview: Men&amp;Mice is known for its lightweight, overlay approach, making it easy to integrate with existing infrastructure.
+<br>Key Features: Overlay management, hybrid cloud support, and modular design.
+<br>Automation: Strong API support, especially for hybrid and multi-cloud environments.
+<br><br>
+<br>Overview: Microsoft’s DDI solution is built into Windows Server, making it a go-to for organizations already invested in Microsoft infrastructure.
+<br>Key Features: Integration with Active Directory, familiar management tools.
+<br>Automation: PowerShell scripting is the main automation method, with some REST API support in newer versions.
+<br><br>
+<br>Examples: ISC BIND/DHCP, Kea DHCP, phpIPAM.
+<br>Key Features: Cost-effective, highly customizable, but often require more manual setup and maintenance.
+<br>Automation: Varies widely—some have REST APIs or CLI tools, but automation is generally less mature than commercial offerings.
+<br><br>Let’s be real: automation in DDI isn’t new, but it’s not always straightforward. Here’s what’s possible today:<br>
+<br>APIs: Most modern DDI tools offer RESTful APIs, which are the backbone of automation.
+<br>Configuration Management Integrations: Tools like Ansible, Puppet, and Chef can automate DDI tasks if the DDI platform supports it.
+<br>Self-Service Portals: Some platforms allow end-users or application teams to request IPs or DNS changes directly.
+<br>Event-Driven Automation: Advanced platforms can trigger workflows based on network events (e.g., a new device connects).
+<br>But not all tools are created equal—some have robust, well-documented APIs and integrations, while others are still catching up.<br><br>Looking ahead, several trends are pushing DDI automation to the forefront:<br>
+<br>Cloud and Hybrid Networks: As networks span on-prem, cloud, and edge, manual DDI management just isn’t scalable.
+<br>DevOps and NetOps: Infrastructure as Code (IaC) is moving into the network space, and DDI needs to keep up.
+<br>Security: Automated DDI can help quickly detect and respond to threats like DNS tunneling or rogue devices.
+<br>Self-Healing Networks: The dream is a network that can fix itself—automated DDI is a key part of that vision.
+<br>API-First Architectures: Vendors are racing to build better APIs to support automation and orchestration.
+<br><br>Here’s a practical look at how the major DDI tools stack up for automation in 2025:<br><br>Key Takeaways:<br>
+<br>Infoblox and BlueCat are leading the pack with mature APIs, strong documentation, and lots of integrations.
+<br>EfficientIP and Men&amp;Mice are catching up fast, especially for hybrid and multi-cloud environments.
+<br>Microsoft is improving, but automation is still mostly PowerShell-driven.
+<br>Open Source tools offer flexibility but often require more DIY effort to automate.
+<br><br>So, what makes a DDI tool “automation-friendly”? Here’s what to look for:<br><br>
+<br>Tools built with automation in mind provide RESTful APIs for every function.
+<br>Well-documented APIs make scripting and integration much easier.
+<br><br>
+<br>Native support for orchestration tools (Ansible, Terraform, etc.) is a huge plus.
+<br>Pre-built modules and plugins save time and reduce errors.
+<br><br>
+<br>Automation is critical for managing dynamic cloud resources.
+<br>Tools with native cloud integrations (AWS, Azure, GCP) are better positioned.
+<br><br>
+<br>The ability to trigger workflows based on network events (like device onboarding) is key for self-healing and zero-touch networks.
+<br><br>
+<br>Automated policy enforcement and auditing help meet security requirements without manual intervention.
+<br><br>Automation isn’t a silver bullet. Here are some practical challenges to keep in mind:<br>
+<br>Legacy Infrastructure: Not all networks are ready for full automation—hybrid environments can be tricky.
+<br>Skill Gaps: Automation requires new skills (APIs, scripting) that not every team has today.
+<br>Vendor Lock-In: Some DDI vendors make it easier to automate within their ecosystem than to integrate with others.
+<br>Change Management: Automated changes can go wrong fast—testing and validation are critical.
+<br>Security Risks: Poorly secured APIs can become attack vectors.
+<br><br>For network engineers, the future of DDI is all about automation. Infoblox and BlueCat are leading the charge, with EfficientIP and Men&amp;Mice close behind. Microsoft and open source tools are improving, but may require more hands-on effort. The key is to look for tools with strong APIs, good integration options, and cloud-native features.<br>As networks become more dynamic and complex, the ability to automate DDI tasks will separate the high-performing teams from the rest. Now’s the time to start building those automation skills and evaluating which DDI platforms will help you get ahead in 2025 and beyond.<br><br>
+<br>Infoblox Automation Resources: <a rel="noopener nofollow" class="external-link" href="https://www.infoblox.com/resources/" target="_blank">https://www.infoblox.com/resources/</a>
+<br>BlueCat Automation Central: <a rel="noopener nofollow" class="external-link" href="https://www.bluecatnetworks.com/solutions/automation/" target="_blank">https://www.bluecatnetworks.com/solutions/automation/</a>
+<br>EfficientIP Automation: <a rel="noopener nofollow" class="external-link" href="https://www.efficientip.com/solutions/ddi-automation/" target="_blank">https://www.efficientip.com/solutions/ddi-automation/</a>
+<br>Men&amp;Mice Automation: <a rel="noopener nofollow" class="external-link" href="https://menandmice.com/solutions/automation/" target="_blank">https://menandmice.com/solutions/automation/</a>
+<br>Microsoft DDI Documentation: <a rel="noopener nofollow" class="external-link" href="https://docs.microsoft.com/en-us/windows-server/networking/technologies/ddi/" target="_blank">https://docs.microsoft.com/en-us/windows-server/networking/technologies/ddi/</a>
+<br>Open Source DDI Tools: <a rel="noopener nofollow" class="external-link" href="https://www.isc.org/" target="_blank">https://www.isc.org/</a>, <a rel="noopener nofollow" class="external-link" href="https://phpipam.net/" target="_blank">https://phpipam.net/</a>
+<br>Gartner Magic Quadrant for DDI, 2023
+<br>This paper is intended as a practical guide for network engineers evaluating DDI automation options for 2025. For more technical deep-dives or vendor-specific implementation guides, consult the official documentation or reach out to your vendor’s technical support.]]></description><link>mallard\000-research-on-ddi-tools-and-automation.html</link><guid isPermaLink="false">mallard/000 - Research on DDI Tools and Automation.md</guid><pubDate>Thu, 22 May 2025 17:01:44 GMT</pubDate></item><item><title><![CDATA[003 - Open Source DDI Tools]]></title><description><![CDATA[ 
+ <br><a rel="noopener nofollow" class="external-link" href="https://wiki.teemip.net/doku.php?id=extensions:teemip-zone-mgmt" target="_blank">https://wiki.teemip.net/doku.php?id=extensions:teemip-zone-mgmt</a><br><a rel="noopener nofollow" class="external-link" href="https://ownpetz.com/blog/article/top-5-ddi-platforms-b2311/" target="_blank">https://ownpetz.com/blog/article/top-5-ddi-platforms-b2311/</a><br><a rel="noopener nofollow" class="external-link" href="http://spritelink.github.io/NIPAP/" target="_blank">http://spritelink.github.io/NIPAP/</a><br><a rel="noopener nofollow" class="external-link" href="http://www.gestioip.net/ip-address-management-software.html" target="_blank">http://www.gestioip.net/ip-address-management-software.html</a><br><a rel="noopener nofollow" class="external-link" href="https://maas.io/how-it-works" target="_blank">https://maas.io/how-it-works</a><br><a rel="noopener nofollow" class="external-link" href="https://sourceforge.net/projects/haci/" target="_blank">https://sourceforge.net/projects/haci/</a><br>Some gadgets for assistance with subnetting and CIDR:<br><a rel="noopener nofollow" class="external-link" href="https://www.subnet-calculator.com/" target="_blank">https://www.subnet-calculator.com/</a><br><a rel="noopener nofollow" class="external-link" href="https://www.cidr-calc.com/" target="_blank">https://www.cidr-calc.com/</a><br>or, just see this:<br><a rel="noopener nofollow" class="external-link" href="https://www.lochotin.com/" target="_blank">https://www.lochotin.com/</a>]]></description><link>mallard\003-open-source-ddi-tools.html</link><guid isPermaLink="false">mallard/003 - Open Source DDI Tools.md</guid><pubDate>Thu, 22 May 2025 16:52:54 GMT</pubDate></item><item><title><![CDATA[Domain Name System (DNS)]]></title><description><![CDATA[ 
+ <br><br><br>The Domain Name System (DNS) is a foundational component of the Internet and private networks. Its primary function is to translate human-readable domain names (like www.example.com) into machine-readable IP addresses (such as 192.0.2.1). This process, known as "name resolution," enables users and applications to access websites and network resources using easy-to-remember names instead of numeric addresses.<br><br><br>
+<br>Purpose: Converts domain names into IP addresses.
+<br>How it works: When a user enters a domain name, DNS servers look up the corresponding IP address and return it to the client device.
+<br><br>
+<br>Root Servers: The top level of the DNS hierarchy, directing queries to the appropriate Top-Level Domain (TLD) servers.
+<br>TLD Servers: Manage domains like .com, .org, .net, etc.
+<br>Authoritative Name Servers: Store DNS records for specific domains.
+<br><br>
+<br>DNS information is distributed across thousands of servers worldwide.
+<br>This design improves reliability, scalability, and fault tolerance.
+<br><br>
+<br>DNS servers and clients temporarily store (cache) query results.
+<br>Caching speeds up subsequent lookups and reduces network traffic.
+<br><br>DNS supports multiple record types, each serving a specific purpose:<br><br><br>
+<br>Multiple DNS servers can serve the same domain to ensure high availability.
+<br>DNS can be used for load balancing by returning different IP addresses for the same domain (round-robin DNS).
+<br><br>
+<br>DNSSEC (Domain Name System Security Extensions): Adds cryptographic signatures to DNS data to prevent spoofing and ensure authenticity.
+<br>Access Controls: Restrict who can update DNS records.
+<br><br>
+<br>Some DNS servers support dynamic updates, allowing changes to DNS records without manual intervention (useful for DHCP environments).
+<br><br>
+<br>Maps IP addresses back to domain names, often used for email validation and network troubleshooting.
+<br><br>
+<br>Mechanism for replicating DNS data between primary and secondary servers to maintain consistency and redundancy.
+<br><br>
+<br>User Request: A user enters a domain name in a browser.
+<br>Local Cache Check: The client checks its local DNS cache.
+<br>Recursive Resolver: If not cached, the request goes to a recursive DNS resolver.
+<br>Root Server Query: The resolver queries a root server for the TLD.
+<br>TLD Server Query: The resolver queries the TLD server for the authoritative server.
+<br>Authoritative Server Query: The resolver queries the authoritative server for the IP address.
+<br>Response: The IP address is returned to the client, which can now connect to the destination.
+<br><br>Detailed Explanation of Each DNS Resolution Step<br>Let’s walk through each step in detail, describing what happens behind the scenes when a user enters a domain name (e.g., www.example.com) in their browser:<br><img alt="Pasted image 20250522122314.png" src="lib\media\pasted-image-20250522122314.png"><br><br>
+<br>What Happens:<br>
+The user types a domain name into their web browser and hits Enter.
+<br>Details:<br>
+The browser needs to translate the human-readable domain (www.example.com) into an IP address to establish a connection. It sends a DNS query to the operating system’s DNS resolver.
+<br><br>
+<br>What Happens:<br>
+The client device (your computer or phone) checks its local DNS cache.
+<br>Details:
+
+<br>The operating system maintains a cache of recently resolved domain names and their corresponding IP addresses.
+<br>If the requested domain is found in the cache and hasn’t expired (TTL not reached), the IP address is returned immediately to the browser.
+<br>If not found, the process continues to the next step.
+
+
+<br><br>
+<br>What Happens:<br>
+The DNS query is sent to a recursive DNS resolver (usually provided by your ISP or a third-party service like Google DNS or Cloudflare).
+<br>Details:
+
+<br>The recursive resolver’s job is to find the answer on behalf of the client.
+<br>It first checks its own cache for the answer.
+<br>If the answer is not cached, it proceeds to query other DNS servers in a hierarchical manner.
+
+
+<br><br>
+<br>What Happens:<br>
+The recursive resolver queries a DNS root server.
+<br>Details:
+
+<br>There are 13 sets of root servers worldwide, each with many distributed instances.
+<br>The root server doesn’t know the IP address of www.example.com, but it knows where to find the authoritative servers for all Top-Level Domains (TLDs), such as .com, .org, .net, etc.
+<br>The root server responds with a referral to the appropriate TLD server (e.g., for .com domains).
+
+
+<br><br>
+<br>What Happens:<br>
+The recursive resolver queries the TLD server for .com.
+<br>Details:
+
+<br>The TLD server is responsible for knowing the authoritative DNS servers for all domains under its TLD.
+<br>The TLD server doesn’t know the final IP address, but it knows which authoritative server is responsible for example.com.
+<br>It responds with the name and IP address of the authoritative DNS server for example.com.
+
+
+<br><br>
+<br>What Happens:<br>
+The recursive resolver queries the authoritative DNS server for example.com.
+<br>Details:
+
+<br>The authoritative server has the actual DNS records for the domain (A, AAAA, MX, etc.).
+<br>It looks up the record for www.example.com and returns the corresponding IP address to the resolver.
+
+
+<br><br>
+<br>What Happens:<br>
+The recursive resolver returns the IP address to the client’s operating system, which passes it to the browser.
+<br>Details:
+
+<br>The recursive resolver may cache the answer for future queries.
+<br>The client’s operating system may also cache the result.
+<br>The browser uses the IP address to initiate a connection to the web server and load the website.
+
+
+<br><br>User → Local Cache → Recursive Resolver → Root Server → TLD Server → Authoritative Server → IP Address → User<br>In summary:<br>
+Each step in DNS resolution is designed to efficiently and reliably translate a domain name into an IP address, using a hierarchy of caches and authoritative sources to minimize latency and maximize reliability.<br>About Recursion and Iteration - in more detail<br>
+<br>Recursive DNS servers blend recursion and iteration to navigate the complex DNS hierarchy.
+<br>When a recursive DNS server receives a query, it first checks its cache to see if the information is available.
+<br>If the information is not in the cache, it starts a recursive process.
+<br>The server reaches out to authoritative servers during this process.
+<br>It uses iteration to specify its search for the required data.
+<br>This dynamic dance between recursion and iteration ensures DNS queries are resolved quickly and accurately.
+<br>Recursive DNS servers are essential infrastructure components within the global Internet architecture and the Domain Name System (DNS).  
+<br>They perform critical functions in the DNS resolution process by querying authoritative DNS servers to resolve domain names into IP addresses.  
+<br>These resolvers facilitate query simplification.  
+<br>They coordinate response aggregation.  
+<br>They implement load balancing mechanisms to efficiently handle high volumes of DNS requests received daily.
+<br>About Recursion and Iteration - or more simply<br>
+<br>A recursive DNS server is like a clever helper that finds website addresses for you.  
+<br>When you ask it for a site’s address, it checks if it already knows it.  
+<br>If not, it starts asking other servers on the internet step by step until it finds the answer.  
+<br>It then gives the answer back to you.  
+<br>It combines asking others (recursion) and going through steps one at a time (iteration) to get you the info fast and right.  
+<br>These servers are super important for the internet because they turn website names into the IP addresses computers need to find each other.  
+<br>They handle millions of requests every day.
+<br><br>
+<br>Web browsing: Translating website names to IP addresses.
+<br>Email delivery: Directing messages to the correct mail servers.
+<br>Network services: Locating servers and resources within corporate networks.
+<br>Security: Blocking or redirecting malicious domains.
+<br><br>
+<br>DNS Recursor - The recursor can be thought of as a librarian who is asked to go find a particular book somewhere in a library. The DNS recursor is a server designed to receive queries from client machines through applications such as web browsers. Typically the recursor is then responsible for making additional requests in order to satisfy the client’s DNS query.
+<br>[Client/Browser]<br>
+|<br>
+v<br>
+[DNS Recursor/Resolver]<br>
+|<br>
+v<br>
+[Root Name Server]<br>
+|<br>
+v<br>
+[TLD Name Server] (.com)<br>
+|<br>
+v<br>
+[Authoritative Name Server] (example.com)<br>
+|<br>
+v<br>
+[DNS Recursor/Resolver]<br>
+|<br>
+v<br>
+[Client/Browser]<br>
+<br>Root nameserver &nbsp;- The&nbsp;root server is the first step in translating (resolving) human readable host names into IP addresses. It can be thought of like an index in a library that points to different racks of books - typically it serves as a reference to other more specific locations.
+<br>[Client/Browser]<br>
+|<br>
+v<br>
+[DNS Recursor/Resolver]<br>
+|<br>
+v<br>
+[Root Name Server]<br>
+|<br>
+v<br>
+[TLD Name Server] (.com, .org, .net, etc.)<br>
+|<br>
+v<br>
+[Authoritative Name Server] (example.com, etc.)<br>
+<br>TLD nameserver&nbsp;- The top level domain server (TLD) can be thought of as a specific rack of books in a library. This nameserver is the next step in the search for a specific IP address, and it hosts the last portion of a hostname (In example.com, the TLD server is “com”).
+<br>[Client/Browser]<br>
+|<br>
+v<br>
+[DNS Recursor/Resolver]<br>
+|<br>
+v<br>
+[Root Name Server]<br>
+|<br>
+v<br>
+[TLD Name Server] (.com, .org, .net, etc.)<br>
+|<br>
+v<br>
+[Authoritative Name Server] (example.com, etc.)<br>
+|<br>
+v<br>
+[DNS Recursor/Resolver]<br>
+|<br>
+v<br>
+[Client/Browser]<br>
+<br>Authoritative nameserver&nbsp;- This final nameserver can be thought of as a dictionary on a rack of books, in which a specific name can be translated into its definition. The authoritative nameserver is the last stop in the nameserver query. If the authoritative name server has access to the requested record, it will return the IP address for the requested hostname back to the DNS Recursor (the librarian) that made the initial request.
+<br>[Client/Browser]<br>
+|<br>
+v<br>
+[DNS Recursor/Resolver]<br>
+|<br>
+v<br>
+[Root Name Server]<br>
+|<br>
+v<br>
+[TLD Name Server] (.com, .org, .net, etc.)<br>
+|<br>
+v<br>
+[Authoritative Name Server] (example.com)<br>
+|<br>
+v<br>
+[DNS Recursor/Resolver]<br>
+|<br>
+v<br>
+[Client/Browser]<br><br>Both concepts refer to servers (groups of servers) that are integral to the DNS infrastructure, but each performs a different role and lives in different locations inside the pipeline of a DNS query. One way to think about the difference is the&nbsp;recursive resolver is at the beginning of the DNS query and the authoritative nameserver is at the end.<br><br>The recursive resolver is the computer that responds to a recursive request from a client and takes the time to track down the&nbsp;DNS Record.  Luckily, recursive DNS resolvers do not always need to make multiple requests in order to track down the records needed to respond to a client;&nbsp;caching is a data persistence process that helps short-circuit the necessary requests by serving the requested resource record earlier in the DNS lookup.<br><br>Put simply, an authoritative DNS server is a server that actually holds, and is responsible for, DNS resource records. This is the server at the bottom of the DNS lookup chain that will respond with the queried resource record, ultimately allowing the web browser making the request to reach the IP address needed to access a website or other web resources. An authoritative nameserver can satisfy queries from its own data without needing to query another source, as it is the final source of truth for certain DNS records.<br><br>For most situations, DNS is concerned with a domain name being translated into the appropriate IP address. To learn how this process works, it helps to follow the path of a DNS lookup as it travels from a web browser, through the DNS lookup process, and back again. Let's take a look at the steps.<br>Note: Often DNS lookup information will be cached either locally inside the querying computer or remotely in the DNS infrastructure. There are typically 8 steps in a DNS lookup. When DNS information is cached, steps are skipped from the DNS lookup process which makes it quicker. The example below outlines all 8 steps when nothing is cached.<br><br>
+<br>A user types ‘example.com’ into a web browser and the query travels into the Internet and is received by a DNS recursive resolver.
+<br>The resolver then queries a DNS root nameserver (.).
+<br>The root server then responds to the resolver with the address of a Top Level Domain (TLD) DNS server (such as .com or .net), which stores the information for its domains. When searching for example.com, our request is pointed toward the .com TLD.
+<br>The resolver then makes a request to the .com TLD.
+<br>The TLD server then responds with the IP address of the domain’s nameserver, example.com.
+<br>Lastly, the recursive resolver sends a query to the domain’s nameserver.
+<br>The IP address for example.com is then returned to the resolver from the nameserver.
+<br>The DNS resolver then responds to the web browser with the IP address of the domain requested initially.
+<br>Once the 8 steps of the DNS lookup have returned the IP address for example.com, the browser is able to make the request for the web page:<br>
+<br>The browser makes a&nbsp;HTTP request to the IP address.
+<br>The server at that IP returns the webpage to be rendered in the browser (step 10).
+<br><img alt="Pasted image 20250521135255.png" src="lib\media\pasted-image-20250521135255.png"><br><br>The DNS resolver is the first stop in the DNS lookup, and it is responsible for dealing with the client that made the initial request. The resolver starts the sequence of queries that ultimately leads to a URL being translated into the necessary IP address.<br>Note: A typical uncached DNS lookup will involve both recursive and iterative queries.<br>It's important to differentiate between a&nbsp;recursive DNS query and a recursive DNS resolver. The query refers to the request made to a DNS resolver requiring the resolution of the query. A DNS recursive resolver is the computer that accepts a recursive query and processes the response by making the necessary requests.<br><img alt="Pasted image 20250521135347.png" src="lib\media\pasted-image-20250521135347.png"><br><br>In a typical DNS lookup three types of queries occur. By using a combination of these queries, an optimized process for DNS resolution can result in a reduction of distance traveled. In an ideal situation cached record data will be available, allowing a DNS name server to return a non-recursive query.<br><br>
+<br>Recursive query&nbsp;- In a recursive query, a DNS client requires that a DNS server (typically a DNS recursive resolver) will respond to the client with either the requested resource record or an error message if the resolver can't find the record.
+<br>Iterative query&nbsp;- in this situation the DNS client will allow a DNS server to return the best answer it can. If the queried DNS server does not have a match for the query name, it will return a referral to a DNS server authoritative for a lower level of the domain namespace. The DNS client will then make a query to the referral address. This process continues with additional DNS servers down the query chain until either an error or timeout occurs.
+<br>Non-recursive query&nbsp;- typically this will occur when a DNS resolver client queries a DNS server for a record that it has access to either because it's authoritative for the record or the record exists inside of its cache. Typically, a DNS server will cache DNS records to prevent additional bandwidth consumption and load on upstream servers.
+<br><br>The purpose of caching is to temporarily stored data in a location that results in improvements in performance and reliability for data requests. DNS caching involves storing data closer to the requesting client so that the DNS query can be resolved earlier and additional queries further down the DNS lookup chain can be avoided, thereby improving load times and reducing bandwidth/CPU consumption. DNS data can be cached in a variety of locations, each of which will store DNS records for a set amount of time determined by a&nbsp;time-to-live (TTL).<br><br>Modern web browsers are designed by default to cache DNS records for a set amount of time. The purpose here is obvious; the closer the DNS caching occurs to the web browser, the fewer processing steps must be taken in order to check the cache and make the correct requests to an IP address. When a request is made for a DNS record, the browser cache is the first location checked for the requested record.<br>In Chrome, you can see the status of your DNS cache by going to chrome://net-internals/#dns:<br><img alt="Pasted image 20250521134649.png" src="lib\media\pasted-image-20250521134649.png"><br><br>The operating system level DNS resolver is the second and last local stop before a DNS query leaves your machine. The process inside your operating system that is designed to handle this query is commonly called a “stub resolver” or DNS client. When a stub resolver gets a request from an application, it first checks its own cache to see if it has the record. If it does not, it then sends a DNS query (with a recursive flag set), outside the local network to a DNS recursive resolver inside the Internet service provider (ISP).<br>When the recursive resolver inside the ISP receives a DNS query, like all previous steps, it will also check to see if the requested host-to-IP-address translation is already stored inside its local persistence layer.<br>The recursive resolver also has additional functionality depending on the types of records it has in its cache:<br>
+<br>If the resolver does not have the&nbsp;A Records but does have the NS Records for the authoritative nameservers, it will query those name servers directly, bypassing several steps in the DNS query. This shortcut prevents lookups from the root and .com nameservers (in our search for example.com) and helps the resolution of the DNS query occur more quickly.
+<br>If the resolver does not have the NS records, it will send a query to the TLD servers (.com in our case), skipping the root server.
+<br>In the unlikely event that the resolver does not have records pointing to the TLD servers, it will then query the root servers. This event typically occurs after a DNS cache has been purged.
+<br><br><br>
+<br><a data-tooltip-position="top" aria-label="https://en.wikipedia.org/wiki/Domain_Name_System" rel="noopener nofollow" class="external-link" href="https://en.wikipedia.org/wiki/Domain_Name_System" target="_blank">Wikipedia: Domain Name System</a>
+<br><a data-tooltip-position="top" aria-label="https://www.icann.org/resources/pages/dns-2013-05-03-en" rel="noopener nofollow" class="external-link" href="https://www.icann.org/resources/pages/dns-2013-05-03-en" target="_blank">ICANN DNS Resources</a>
+<br><a data-tooltip-position="top" aria-label="https://www.cloudflare.com/learning/dns/what-is-dns/" rel="noopener nofollow" class="external-link" href="https://www.cloudflare.com/learning/dns/what-is-dns/" target="_blank">Cloudflare DNS Explained</a>
+<br><a data-tooltip-position="top" aria-label="https://datatracker.ietf.org/doc/html/rfc1035" rel="noopener nofollow" class="external-link" href="https://datatracker.ietf.org/doc/html/rfc1035" target="_blank">RFC 1035: Domain Names - Implementation and Specification</a>
+<br>This page provides a high-level overview of DNS features and functions. For technical details or configuration guidance, consult vendor documentation or network engineering resources.]]></description><link>mallard\011-dns.html</link><guid isPermaLink="false">mallard/011 - DNS.md</guid><pubDate>Thu, 22 May 2025 16:39:47 GMT</pubDate><enclosure url="lib\media\pasted-image-20250522122314.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\pasted-image-20250522122314.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[013 - Troubleshooting DNS with examples of commands]]></title><description><![CDATA[ 
+ <br>
+<br>It is important to know how dig, nslookup and host work in order to do DNS troubleshooting of a resource from your system. 
+<br><br><br>Note:  You can find your DNS server IP(s) in /etc/resolv.conf by running:<br>$ `grep nameserver /etc/resolv.conf`
+<br>or, on windows you can run:<br>$ `ipconfig /all | findstr DNS | findstr Servers`
+<br>Then use the IP(s) from the commands above to query DNS directly via those DNS nameservers.]]></description><link>mallard\013-troubleshooting-dns-with-examples-of-commands.html</link><guid isPermaLink="false">mallard/013 - Troubleshooting DNS with examples of commands.md</guid><pubDate>Thu, 22 May 2025 16:35:10 GMT</pubDate></item><item><title><![CDATA[Dynamic Host Configuration Protocol (DHCP)]]></title><description><![CDATA[ 
+ <br><br><br>Dynamic Host Configuration Protocol (DHCP) is a network management protocol used to automate the process of assigning IP addresses and other network configuration parameters to devices on a network. This automation simplifies network administration and ensures that devices can communicate efficiently and securely.<br><br><br>
+<br>Purpose: Dynamically assigns unique IP addresses to devices (clients) on a network.
+<br>Benefit: Eliminates manual configuration, reducing errors and administrative workload.
+<br><br>
+<br>Leases: IP addresses are assigned for a specific period (the "lease").
+<br>Renewal: Clients can renew leases to keep their IP addresses.
+<br>Reclamation: When a lease expires, the IP address is returned to the available pool.
+<br><br>
+<br>Single Point of Control: Network administrators manage all IP address assignments from a central DHCP server.
+<br>Scalability: Easily supports networks ranging from small offices to large enterprises.
+<br><br>
+<br>Scopes: Define ranges of IP addresses that can be assigned within a subnet.
+<br>Pools: Group available IP addresses for allocation to clients.
+<br><br>DHCP can provide additional configuration details, known as "options," such as:<br><br><br>
+<br>Reservations: Assign specific IP addresses to particular devices based on their MAC address (useful for servers, printers, etc.).
+<br>Exclusions: Prevent certain IP addresses within a scope from being assigned by DHCP.
+<br><br>
+<br>Relay Agents: Forward DHCP requests between clients and servers across different subnets, enabling centralized DHCP management in large networks.
+<br><br>
+<br>DHCPv4: For traditional IPv4 networks.
+<br>DHCPv6: Extends DHCP functionality to IPv6 networks, with additional options for address assignment and configuration.
+<br><br>
+<br>Automatic DNS Updates: DHCP servers can update DNS records as devices join or leave the network, ensuring accurate name-to-IP mappings.
+<br><br>
+<br>Authentication: Some DHCP implementations support authentication to prevent unauthorized devices from receiving IP addresses.
+<br>IP Address Tracking: Logs and monitors IP address assignments for auditing and troubleshooting.
+<br><br>
+<br>Discovery: The client broadcasts a DHCPDISCOVER message to find available DHCP servers.
+<br>Offer: DHCP servers respond with a DHCPOFFER, proposing an IP address and configuration options.
+<br>Request: The client replies with a DHCPREQUEST, selecting one of the offers.
+<br>Acknowledgment: The server sends a DHCPACK, confirming the assignment and lease details.
+<br>Renewal: Before the lease expires, the client can request renewal to keep the same IP address.
+<br><br>
+<br>Enterprise Networks: Automates IP address management for thousands of devices.
+<br>Home Networks: Routers use DHCP to assign IP addresses to computers, phones, and IoT devices.
+<br>Guest Networks: Provides temporary IP addresses for visitors.
+<br>Virtual Environments: Assigns addresses to virtual machines and containers dynamically.
+<br><br>
+<br><a data-tooltip-position="top" aria-label="https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol" rel="noopener nofollow" class="external-link" href="https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol" target="_blank">Wikipedia: Dynamic Host Configuration Protocol</a>
+<br><a data-tooltip-position="top" aria-label="https://datatracker.ietf.org/doc/html/rfc2131" rel="noopener nofollow" class="external-link" href="https://datatracker.ietf.org/doc/html/rfc2131" target="_blank">RFC 2131: DHCP for IPv4</a>
+<br><a data-tooltip-position="top" aria-label="https://datatracker.ietf.org/doc/html/rfc8415" rel="noopener nofollow" class="external-link" href="https://datatracker.ietf.org/doc/html/rfc8415" target="_blank">RFC 8415: DHCP for IPv6</a>
+<br><a data-tooltip-position="top" aria-label="https://learn.microsoft.com/en-us/windows-server/networking/technologies/dhcp/dhcp-top" rel="noopener nofollow" class="external-link" href="https://learn.microsoft.com/en-us/windows-server/networking/technologies/dhcp/dhcp-top" target="_blank">Microsoft DHCP Overview</a>
+<br>This page provides a high-level overview of DHCP features and functions. For configuration details or advanced topics, consult vendor documentation or network engineering resources.]]></description><link>mallard\023-dhcp.html</link><guid isPermaLink="false">mallard/023 - DHCP.md</guid><pubDate>Thu, 22 May 2025 17:02:47 GMT</pubDate></item><item><title><![CDATA[IP Address Management (IPAM)]]></title><description><![CDATA[ 
+ <br><br><br>IP Address Management (IPAM) is a set of tools and processes used to plan, track, and manage IP address allocations and usage across networks. IPAM solutions provide centralized visibility and control, helping organizations avoid conflicts, optimize address utilization, and support network growth and security.<br><br><br>
+<br>Purpose: Maintains a comprehensive database of all IP addresses in use, reserved, or available.
+<br>Benefit: Provides a single source of truth for network administrators.
+<br><br>
+<br>Network Scanning: Automatically detects active devices and updates the IP address inventory.
+<br>Real-Time Updates: Tracks changes as devices join or leave the network.
+<br><br>
+<br>Subnet Planning: Helps design and allocate subnets efficiently.
+<br>Visualization: Graphical tools display subnet hierarchies, usage, and available space.
+<br><br>Network subnetting is a way to divide a large computer network into smaller, more manageable pieces called subnets. Here’s a simple breakdown:<br><br>
+<br>Subnetting splits a big network into smaller networks.
+<br>Each smaller network (subnet) can operate independently.
+<br>It helps organize, secure, and efficiently use IP addresses.
+<br><br>
+<br>Organization: Makes it easier to manage groups of devices.
+<br>Security: Limits which devices can talk directly to each other.
+<br>Efficiency: Prevents wasting IP addresses.
+<br><br>IP Addresses<br>
+Every device on a network has an IP address (like 192.168.1.10).<br>Subnet Mask<br>
+A subnet mask (like 255.255.255.0) tells which part of the IP address is the network and which part is for devices.<br>Dividing the Network<br>- The subnet mask splits the IP address into two parts:
+    - **Network part:** Identifies the subnet.
+    - **Host part:** Identifies the device within that subnet.
+
+- For example, with 255.255.255.0:
+    - The first three numbers (192.168.1) are the network.
+    - The last number (.10) is the device.
+    
+<br>Creating Subnets<br>- By changing the subnet mask (e.g., to 255.255.255.128), you can create more subnets with fewer devices in each.
+<br><br><br>For IP Address FOO:<br>
+<br>The subnet boundary is the is the entire range of addresses: 191.168.1.0 - 192.168.1.255
+<br>For IP Address BAR:<br>
+<br>The first subnet (192.168.1.0 – 192.168.1.127)
+<br>The second subnet (192.168.1.128 – 192.168.1.255)
+<br><br>Let's break down each IP address, its subnet mask, and how they translate to CIDR notation, along with what the network and host portions mean.<br><br>
+<br>Subnet Mask: 255.255.255.0
+
+<br>In binary: 11111111.11111111.11111111.00000000
+<br>This means the first 24 bits are the network portion.
+
+
+<br>CIDR Notation: 192.168.1.0/24
+<br>Network Portion: 192.168.1 (or 192.168.1.0)
+<br>Host Portion: .10 (the last octet)
+<br>Explanation:<br>
+<br>The /24 means the first 24 bits (192.168.1) define the network.
+<br>The last 8 bits (the .10) are the host part, identifying the specific device on that network.
+<br><br>
+<br>Subnet Mask: 255.255.255.128
+
+<br>In binary: 11111111.11111111.11111111.10000000
+<br>This means the first 25 bits are the network portion.
+
+
+<br>CIDR Notation: 192.168.1.128/25
+<br>Network Portion: 192.168.1.128
+<br>Host Portion: .2 (since 192.168.1.130 is the second address in this subnet)
+<br>Explanation:<br>
+<br>The /25 means the first 25 bits (192.168.1.128) define the network.
+<br>The last 7 bits (the .2) are the host part, identifying the specific device within the 192.168.1.128/25 subnet.
+<br><br><br>How to convert:<br>
+<br>Count the number of 1s in the subnet mask to get the CIDR prefix (e.g., 255.255.255.0 = 24 ones = /24).
+<br>The network portion is the part of the IP address covered by the subnet mask.
+<br>The host portion is the remaining part.
+<br><br>
+<br>Subnetting = dividing a big network into smaller ones.
+<br>Uses subnet masks to define boundaries.
+<br>Helps with organization, security, and efficient IP address use.
+<br><br>This guide explains how the IP addresses 192.168.1.10/24 and 192.168.1.130/25 fit into their respective subnets, with binary notation and visual diagrams to clarify subnet boundaries.<br><br><br>
+<br>CIDR: /24
+<br>Subnet Mask: 255.255.255.0
+<br>Binary Mask: 11111111.11111111.11111111.00000000
+<br><br>
+<br>Network Address: 192.168.1.0
+<br>Broadcast Address: 192.168.1.255
+<br>Usable Host Range: 192.168.1.1 – 192.168.1.254
+<br>Total Addresses: 256 (254 usable for hosts)
+<br><br><br><br>192.168.1.10/24  |&lt;------ Network (24 bits) ------&gt;|&lt;- Host (8 bits) -&gt;| 11000000.10101000.00000001.00001010      192       . 168      .  1   .10<br><br><br>
+<br>CIDR: /25
+<br>Subnet Mask: 255.255.255.128
+<br>Binary Mask: 11111111.11111111.11111111.10000000
+<br><br>
+<br>Network Address: 192.168.1.128
+<br>Broadcast Address: 192.168.1.255
+<br>Usable Host Range: 192.168.1.129 – 192.168.1.254
+<br>Total Addresses: 128 (126 usable for hosts)
+<br><br><br><br>Code Example<br>192.168.1.130/25  |&lt;------ Network (25 bits) ------&gt;|&lt;- Host (7 bits) -&gt;| 11000000.10101000.00000001.1 0000010      192       . 168      .  1   .130<br><br>
+<br>Subnetting divides a network into smaller segments by extending the network portion of the address (increasing the number after the slash).
+<br>In binary, the subnet mask shows which bits are fixed for the network (1s) and which are variable for hosts (0s).
+
+<br>/24: 24 network bits, 8 host bits (last octet is all host bits)
+<br>/25: 25 network bits, 7 host bits (last octet: first bit is network, last 7 bits are host)
+
+
+<br><br>
+<br>/24: 192.168.1.0 – 192.168.1.255 (all 256 addresses in the last octet)
+<br>/25:
+
+<br>192.168.1.0 – 192.168.1.127 (first half, last octet 0–127)
+<br>192.168.1.128 – 192.168.1.255 (second half, last octet 128–255)
+
+
+<br>192.168.1.130 falls in the second /25 subnet (192.168.1.128/25).
+<br><br><br>Explain Broadcast address in the above table? <br>In summary:<br>
+<br>192.168.1.10/24 is part of a larger subnet (256 addresses, last octet is all host bits).
+<br>192.168.1.130/25 is part of a smaller subnet (128 addresses, last octet's first bit is part of the network).
+<br>The binary diagrams above show how the network and host bits are divided for each subnet.
+<br><br>
+<br>Dynamic Assignment: Integrates with DHCP to assign IP addresses automatically.
+<br>Static Assignment: Supports manual reservations for servers, printers, and critical devices.
+<br><br>
+<br>Duplicate IP Alerts: Identifies and flags overlapping or conflicting IP assignments.
+<br>Policy Enforcement: Applies rules to prevent unauthorized or out-of-policy allocations.
+<br><br>
+<br>Change Logs: Records all changes to IP address assignments and subnet structures.
+<br>Audit Trails: Supports compliance and troubleshooting by tracking who made changes and when.
+<br><br>
+<br>Unified Management: Coordinates with DNS and DHCP systems for end-to-end address lifecycle management.
+<br>Automatic Updates: Ensures DNS records and DHCP leases stay synchronized with IPAM data.
+<br><br>
+<br>Utilization Reports: Shows current and historical IP address usage.
+<br>Capacity Planning: Forecasts future needs based on trends and growth.
+<br><br>
+<br>User Permissions: Restricts who can view or modify IPAM data, supporting delegation and security.
+<br><br>
+<br>Dual-Stack Management: Tracks both IPv4 and IPv6 addresses, easing the transition to newer protocols.
+<br><br>
+<br>Discovery: IPAM scans the network to identify all active devices and their IP addresses.
+<br>Inventory: All IP addresses, subnets, and related metadata are stored in a central database.
+<br>Allocation: Addresses are assigned dynamically (via DHCP) or statically, with IPAM ensuring no conflicts.
+<br>Monitoring: IPAM continuously monitors usage, detects conflicts, and updates records in real time.
+<br>Reporting: Administrators generate reports for utilization, trends, and compliance.
+<br><br>
+<br>Enterprise Networks: Manage thousands of IP addresses across multiple sites and subnets.
+<br>Cloud and Hybrid Environments: Track IP usage across on-premises and cloud resources.
+<br>Data Centers: Support rapid provisioning and decommissioning of virtual machines and devices.
+<br>Compliance: Maintain audit trails for regulatory requirements.
+<br>See also: <a data-href="035 - Class C CIDR Calculations explained" href="mallard\035-class-c-cidr-calculations-explained.html" class="internal-link" target="_self" rel="noopener nofollow">035 - Class C CIDR Calculations explained</a><br><br>
+<br><a data-tooltip-position="top" aria-label="https://en.wikipedia.org/wiki/IP_address_management" rel="noopener nofollow" class="external-link" href="https://en.wikipedia.org/wiki/IP_address_management" target="_blank">Wikipedia: IP Address Management</a>
+<br><a data-tooltip-position="top" aria-label="https://www.gartner.com/en/documents/3986917" rel="noopener nofollow" class="external-link" href="https://www.gartner.com/en/documents/3986917" target="_blank">Gartner: Market Guide for DDI</a>
+<br><a data-tooltip-position="top" aria-label="https://www.infoblox.com/solutions/ip-address-management-ipam/" rel="noopener nofollow" class="external-link" href="https://www.infoblox.com/solutions/ip-address-management-ipam/" target="_blank">Infoblox IPAM Overview</a>
+<br><a data-tooltip-position="top" aria-label="https://bluecatnetworks.com/products/ipam/" rel="noopener nofollow" class="external-link" href="https://bluecatnetworks.com/products/ipam/" target="_blank">BlueCat IPAM Solution</a>
+<br>This page provides a high-level overview of IPAM features and functions. For technical details or implementation guidance, consult vendor documentation or network engineering resources.]]></description><link>mallard\033-ipam.html</link><guid isPermaLink="false">mallard/033 - IPAM.md</guid><pubDate>Thu, 22 May 2025 17:03:25 GMT</pubDate></item><item><title><![CDATA[035 - Class C CIDR Calculations explained]]></title><description><![CDATA[ 
+ <br>A rather mathematical, scholarly or academic explanation of the CIDR for Class C networks using math and other things...<br>IPv4 Address Format<br>IPv4 addresses are made up of four octects separated by periods, or dots. An example is 207.200.53.187 – one of the addresses that&nbsp;[example] resolves to.  The numbers in the address are called octects because they are the decimal values of 8-bit binary words. Each binary digit (bit) represents a power of two.<br>The rightmost bit represents a value of 2^0 (1) and the leftmost bit a value of 2^7 (128). If all bits have a binary value of 1, then the value of the 8-bit word is 255. Here is a handy reference for the value of each bit:<br>2^0 = 1<br>
+2^1 = 2<br>
+2^2 = 4<br>
+2^3 = 8<br>
+2^4 = 16<br>
+2^5 = 32<br>
+2^6 = 64<br>
+2^7 = 128<br>
+2^8 = 256<br>(Yes, “two to the zeroth power equals one” is a legitimate mathematical construct. For that matter, “anything to the zeroth power” always equals one. Also note that there are 9 values above; I included 2^8 as that is useful to know as well.)<br>Calculating powers of 2 is easy: each integer increase in the power doubles the result. 1+1=2, 2+2=4, 4+4=8, 8+8=16, and so on. The total number of addresses in a subnet must always be a power of 2.<br>CIDR Notation<br>So how about CIDR notation? How do translate that to and from an IPv4 address?<br>Remember our powers of two? Well, now we have another key number to remember besides 256: 32. Remember, CIDR notation describes the number of significant bits in the IPv4 address (where the significant bits are the leftmost, or unchanging bits in the subnet), and there are 32 bits in an IPv4 address, 8 for each octet. So if we have a subnet mask of 255.255.255.240, that is 16 addresses. If we look at our “powers of 2” table above, we see that 16 is two to the fourth power (2^4). So we subtract that power number – 4 – from 32 and get 28. Our CIDR notation for a subnet mask of 255.255.255.240, our CIDR notation is /28. And if we are given a /28, we subtract that (28) from 32 to get 4; raise 2 to that (4th) power (2^4) to get 16; then subtract that (16) from 256 to get 240; or 255.255.255.240.<br>This is the best calculator of ip’s, their ranges and which of how many subnets to which they can belong<br>Also useful:<br>CIDR    Dotted Quad
+/24     255.255.255.0
+/25     255.255.255.128
+/26     255.255.255.192
+/27     255.255.255.224
+/28     255.255.255.240
+/29     255.255.255.248
+/30     255.255.255.252
+/31     255.255.255.254
+/32     255.255.255.255
+<br>Each octet is worth 8.<br>
+<br>255.0.0.0 /8
+<br>255.255.0.0 /16
+<br>255.255.255.0 /24
+<br>255.255.255.255 /32
+<br>So you can quickly narrow down your subnet and then you're just worried about the last 8 bits.<br>128, 192, 224, 240, 248, 252, 254, 255
+
++1  , +2 , +3 , +4 , +5 , +6 , +7 , +8
+<br>
+<br>255.128.0.0 = /9
+<br>255.192.0.0 = /10
+<br>255.224.0.0 = /11
+<br>255.240.0.0 = /12
+<br>255.248.0.0 = /13
+<br>255.252.0.0 = /14
+<br>255.254.0.0 = /15
+<br>See nifty tools for this, <a data-href="003 - Open Source DDI Tools" href="mallard\003-open-source-ddi-tools.html" class="internal-link" target="_self" rel="noopener nofollow">003 - Open Source DDI Tools</a>: <br>The only way to properly calculate is to do Binary Math using the octets and this can all be very error prone. ]]></description><link>mallard\035-class-c-cidr-calculations-explained.html</link><guid isPermaLink="false">mallard/035 - Class C CIDR Calculations explained.md</guid><pubDate>Thu, 22 May 2025 17:03:42 GMT</pubDate></item></channel></rss>
